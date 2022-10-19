@@ -2,9 +2,9 @@
 
 We have imported new covid data 'US_COVID_data_state_level.csv', population data of US 'uszips.csv' and holiday data of US 'US Holiday Dates (2004-2021).csv' from trusted sources.
 
-Performed data cleaning
-  >> Removed duplicate cities from city data
-  >> Removed one of the cities with same zip code
+Data Preprocessing
+  >> Preprocessed data by removing  duplicate cities from city data.
+  >> Preprocessed data to get unique zipcode for cities.
   
 Performed data preprocessing
   >> merged covid data with city data set and we call it m
