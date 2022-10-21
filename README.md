@@ -1,12 +1,11 @@
-# sigmoid
+We have imported new covid data which includes death cases too **US_COVID_data_state_level.csv**, city and city population data of US **uszips.csv** and holiday data of US 'US Holiday Dates (2004-2021).csv' from trusted sources.
 
-We have imported new covid data which includes death cases too 'US_COVID_data_state_level.csv', city and city population data of US 'uszips.csv' and holiday data of US 'US Holiday Dates (2004-2021).csv' from trusted sources.
+**Data Preprocessing**
 
-Data Preprocessing
   - Data Cleaning
     - Preprocessed data by removing duplicate cities from city data.
     - Preprocessed data to get unique zipcode for cities.
-    - As we have imported city data from newlt imported 'uszips.csv' and from additional info ~warehouse_name~ column,  we have compared the city names and assigned the       new city names manually.
+    - As we have imported city data from newly imported **uszips.csv** and from additional info **warehouse_name** column,  we have compared the city names and assigned       the new city names manually.
   
   - Performed data preprocessing
     - We have merged covid data with city, called it m.
@@ -21,9 +20,9 @@ Data Preprocessing
     - Similarly we followed the same approach to calculate number of deaths per city and average total deaths per each city.
     - After that we tried to choose best feature for training from all the extra features added.
  
-Model
+**Model**
+
   - Used Long short term memory model to forecast the demand of each warehouse Using 2 deep layers of 64,32 units and leaky relu activation function.
   - LSTM are type of recurrent neural network capable of learning order dependence in sequence prediction problems.
-  - We used LSTM of 2 deep layers of 64,32 units and leaky relu activation function with three feature of sales, total cases/city_weight and death_cases/city/weight.
 
 
