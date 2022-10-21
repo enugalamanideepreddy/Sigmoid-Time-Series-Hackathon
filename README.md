@@ -22,7 +22,8 @@ We have imported new covid data which includes death cases too **US_COVID_data_s
  
 **Model**
 
-  - Used Long short term memory model to forecast the demand of each warehouse Using 2 deep layers of 64,32 units and leaky relu activation function.
+  - Used Long short term memory model to forecast the demand of each warehouse.
   - LSTM are type of recurrent neural network capable of learning order dependence in sequence prediction problems.
+  - We used LSTM of 2 deep layers of 64,32 units and leaky relu activation function with three feaure of sales, total_cases/city_weight and death_cases/city_weight.
 
 
