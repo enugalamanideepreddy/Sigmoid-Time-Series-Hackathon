@@ -24,5 +24,6 @@ Data Preprocessing
 Model
   - Used Long short term memory model to forecast the demand of each warehouse Using 2 deep layers of 64,32 units and leaky relu activation function.
   - LSTM are type of recurrent neural network capable of learning order dependence in sequence prediction problems.
+  - We used LSTM of 2 deep layers of 64,32 units and leaky relu activation function with three feature of sales, total cases/city_weight and death_cases/city/weight.
 
 
